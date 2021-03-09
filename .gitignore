@@ -6,6 +6,9 @@
 !.xmobarrc
 !.xinitrc
 
+!/.zsh
+
+
 !/.config
 /.config/*
 
@@ -13,6 +16,7 @@
 !/.config/neofetch
 !/.config/polybar
 !/.config/kitty
+!/.config/starship.toml
 
 !/.xmonad
 /.xmonad/*

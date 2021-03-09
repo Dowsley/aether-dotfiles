@@ -1,7 +1,4 @@
-" START :: ----- VIM-PLUG PLUGINS AND OTHERS -----
-
-set number
-set termguicolors
+" START :: ----- VIM-PLUG PLUGINS -----
 
 call plug#begin()
 
@@ -18,9 +15,21 @@ Plug 'airblade/vim-gitgutter' " Git gutter literally
 Plug 'jiangmiao/auto-pairs'   " Auto-close regular identation tokens 
 Plug 'ctrlpvim/ctrlp.vim'     " Fuzzy Finder for everything
 Plug 'norcalli/nvim-colorizer.lua' "Fastest colorized in the west
+Plug 'ayu-theme/ayu-vim'
 
 call plug#end()
 " END :: ----- VIM-PLUG PLUGINS -----
+
+" START :: ----- VIM MISC CONFIG -----
+
+set number
+set termguicolors
+" let ayucolor="dark"
+" colorscheme ayu
+hi Normal guibg=NONE ctermbg=NONE
+
+" END :: ----- VIM MISC CONFIG -----
+
 
 " START ----- COLORIZER CONFIGURATION -----
 
